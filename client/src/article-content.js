@@ -1,10 +1,10 @@
 const articles = [
     {
-        name: "react-props-and-styling", // String
-        title: "Understanding React Props and Styling", //String
+        name: "Cinematic Photography", // String
+        title: "Capturing Light: The Key to Cinematic Shots", //String
         // List --> String
         content: [
-            "Props (short for properties) allow you to pass data between components. They are read-only and essential for component reusability.",
+            "Photography is more than just pointing a camera—it’s about understanding and shaping light. Cinematic photography",
             "Example:\nfunction Welcome(props) {\n  return <h1>Hello, {props.name}!</h1>;\n}",
             "React supports multiple styling approaches: inline styles, CSS files, CSS Modules, and styled-components.",
             "Inline Style Example:\nconst style = { color: 'blue' };\n<p style={style}>Styled Text</p>"
@@ -12,9 +12,9 @@ const articles = [
     },
     {
         name: "react-functional-components",
-        title: "React Functional Components",
+        title: "Mastering Composition: From Rule of Thirds to Leading Lines",
         content: [
-            "Functional components are simple JavaScript functions that return JSX.",
+            "Composition is the backbone of every strong photograph. Techniques like the rule of thirds, leading lines, and framing",
             "They are stateless by default but can use hooks like useState and useEffect.",
             "Example:\nfunction HelloWorld() {\n  return <h1>Hello, World!</h1>;\n}",
             "They are preferred in modern React apps for simplicity and performance."
@@ -22,9 +22,9 @@ const articles = [
     },
     {
         name: "react-component-lifecycle",
-        title: "React Component Lifecycle",
+        title: "Enhancing Mood Through Post-Processing",
         content: [
-            "Class components have lifecycle methods: mounting, updating, unmounting.",
+            "Post-processing is where the final cinematic touch comes to life. Editing isn’t just about correcting mistakes; it’s about.",
             "Key methods include: componentDidMount, componentDidUpdate, componentWillUnmount.",
             "Functional components use the useEffect hook to mimic lifecycle behavior.",
             "Example:\nuseEffect(() => {\n  console.log('Mounted');\n  return () => console.log('Unmounted');\n}, []);"
