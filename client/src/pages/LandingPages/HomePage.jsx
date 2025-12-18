@@ -10,10 +10,9 @@ function HomePage() {
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Frontend studio</p>
-          <h1>Polished UI patterns without the corporate beige.</h1>
+          <h1>A curated collection of visuals with cinematic presence.</h1>
           <p className="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec euismod posuere a aliquam
-            mattis ac sed nibh tincidunt non ultrices.
+            Each image is carefully composed and edited to emphasize mood, detail, and a strong sense of atmosphere.
           </p>
           <div className="hero-actions">
             <Link to="/articles" className="button-link primary">
@@ -26,11 +25,11 @@ function HomePage() {
           <div className="stats">
             <div className="stat">
               <strong>{articles.length}+</strong>
-              <span>React breakdowns</span>
+              <span>Cinematic Photos</span>
             </div>
             <div className="stat">
               <strong>3</strong>
-              <span>UI micro-guides</span>
+              <span>Techniques</span>
             </div>
             <div className="stat">
               <strong>Zero</strong>
@@ -42,12 +41,11 @@ function HomePage() {
         <div className="hero-visual">
           <div className="hero-panel">
             <img
-              src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80"
+              src="https://i.pinimg.com/736x/dd/8f/1b/dd8f1bbd68b04212f9c59ec3d73b47cc.jpg"
               alt="Design desk with colorful UI elements"
             />
             <p className="muted">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices in velit varius
-              rutrum vitae arcu.
+              Urban calm in a city that never sleeps — New York in soft light.
             </p>
           </div>
         </div>
@@ -63,27 +61,24 @@ function HomePage() {
         </div>
         <div className="feature-grid">
           <div className="feature-card">
-            <div className="feature-icon">UI</div>
-            <h3>Layout recipes</h3>
+            <div className="feature-icon">CP</div>
+            <h3>Cinematic Photography</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac sed augue sem sit bibendum
-              at dui varius.
+              Carefully captured images that emphasize mood, light, and cinematic composition.
             </p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">FE</div>
-            <h3>React clarity</h3>
+            <div className="feature-icon">PT</div>
+            <h3>Photography Techniques</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies suspendisse
-              pellentesque auctor habitant amet.
+              Thoughtful use of framing, angles, and visual balance to create impactful images.
             </p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">UX</div>
-            <h3>Microcopy cues</h3>
+            <div className="feature-icon">VE</div>
+            <h3>Visual Editing & Color</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis nisl ultricies
-              dignissim vulputate est.
+              Refined post-processing that enhances tone, atmosphere, and overall visual cohesion.
             </p>
           </div>
         </div>
