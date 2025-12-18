@@ -5,36 +5,32 @@ function AboutPage() {
     <div className="page">
       <div className="page-header">
         <p className="eyebrow">About</p>
-        <h1>Building a calm space for sharp frontend practice.</h1>
+        <h1>A visual space showcasing carefully crafted photographic stories.</h1>
         <p className="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae aliquam ullamcorper
-          suspendisse sed, libero aenean mauris egestas vel integer nunc nunc.
+          This is a creative space for photography and visual work, presenting a curated collection of images refined through editing and artistic perspective.
         </p>
       </div>
 
       <div className="about-grid">
         <div className="about-card">
-          <div className="feature-icon">UX</div>
-          <h3>Design first</h3>
+          <div className="feature-icon">PX</div>
+          <h3>Photography</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit urna, feugiat at orci
-            sollicitudin semper.
+            Capturing moments with intention, balancing composition, light, and mood to create compelling visual narratives.
           </p>
         </div>
         <div className="about-card">
-          <div className="feature-icon">DX</div>
-          <h3>Developer friendly</h3>
+          <div className="feature-icon">PP</div>
+          <h3>Post-Production</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu dictum viverra dignissim
-            purus lacus.
+            Enhancing each image with careful editing and color grading to emphasize atmosphere and cinematic tone.
           </p>
         </div>
         <div className="about-card">
           <div className="feature-icon">QA</div>
           <h3>Quality obsessed</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum neque sed feugiat
-            mattis neque.
+            Every detail is considered, ensuring that each photograph meets the highest standards of visual excellence.
           </p>
         </div>
       </div>
@@ -43,22 +39,19 @@ function AboutPage() {
         <div className="timeline-row">
           <strong>2024</strong>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo id enim
-            et laoreet, posuere odio.
+            A year of exploration and growth, capturing moments with intention and refining techniques for cinematic photography.
           </p>
         </div>
         <div className="timeline-row">
           <strong>2025</strong>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet lectus gravida
-            ultricies tristique eget amet.
+            Focused on mastering post-production and visual storytelling, enhancing each image with mood and precision.
           </p>
         </div>
         <div className="timeline-row">
           <strong>Today</strong>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit massa porttitor aenean
-            nibh faucibus scelerisque.
+            Continuing to create a curated collection of visuals, combining photography and editing to produce striking, cinematic imagery.
           </p>
         </div>
       </div>
@@ -66,8 +59,7 @@ function AboutPage() {
       <div className="cta-banner">
         <h3>Get the next drop.</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra interdum vel volutpat in
-          molestie mauris quis.
+          Be the first to see the latest visuals, curated collections, and cinematic photography releases.
         </p>
       </div>
     </div>
