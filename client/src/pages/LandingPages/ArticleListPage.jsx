@@ -38,10 +38,9 @@ function ArticleListPage() {
     <div className="page">
       <div className="page-header">
         <p className="eyebrow">Library</p>
-        <h1>Articles crafted for UI-minded developers.</h1>
+        <h1>Articles crafted for like-minded creatives.</h1>
         <p className="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper massa sit a, nunc volutpat
-          elit tortor.
+          Explore articles that inspire, educate, and celebrate photography, visual storytelling, and creative techniques.
         </p>
       </div>
 
@@ -56,8 +55,7 @@ function ArticleListPage() {
       <div className="cta-banner">
         <h3>Looking for more?</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel purus faucibus neque sed
-          elementum feugiat.
+          Discover additional insights, behind-the-scenes stories, and tips that bring photography and visual storytelling to life.
         </p>
         <Link to="/about" className="button-link secondary">
           Meet the crew
