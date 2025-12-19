@@ -4,6 +4,7 @@ const connectDB = async () => {
     // Connect MongoDB at default port 27017.
     try {
         const conn = await mongoose.connect(process.env.MONGO_URI, {
+            dbName: 'kaesight',
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
