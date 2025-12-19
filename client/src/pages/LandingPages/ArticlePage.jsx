@@ -74,10 +74,6 @@ function ArticlePage() {
           <span className="pill">React</span>
           <span className="muted">{minutes} min read</span>
         </div>
-        <p className="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus egestas blandit
-          fringilla platea quam vel.
-        </p>
       </div>
 
       <div className="article-body">
@@ -87,8 +83,7 @@ function ArticlePage() {
         <div className="card callout">
           <h3>Want another angle?</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet nisl eu condimentum
-            tincidunt pulvinar sed commodo.
+            Discover additional insights, behind-the-scenes stories, and tips that bring photography and visual storytelling to life.
           </p>
           <Link to="/articles" className="button-link primary">
             Browse more articles
